@@ -1,0 +1,29 @@
+windows
+hardware : [00000001] Intel(R) Dual Band Wireless-AC 8265
+mac : 20:16:B9:40:C9:73
+
+hardware : [00000002] Microsoft Wi-Fi Direct Virtual Adapter
+mac : 20:16:B9:40:C9:74
+
+hardware : [00000008] WAN Miniport (IP)
+mac : 4C:F3:20:52:41:53
+
+hardware : [00000009] WAN Miniport (IPv6)
+mac : 4E:77:20:52:41:53
+
+hardware : [00000010] WAN Miniport (Network Monitor)
+mac : 4E:0B:20:52:41:53
+
+hardware : [00000011] Microsoft Wi-Fi Direct Virtual Adapter
+mac : 22:16:B9:40:C9:73
+
+hardware : [00000012] TAP-Windows Adapter V9 for OpenVPN Connect
+mac : 00:FF:B5:FC:E5:F6
+
+hardware : [00000013] Realtek USB GbE Family Controller
+mac : 00:E0:4C:6C:5D:26
+
+hardware : [00000014] VirtualBox Host-Only Ethernet Adapter
+mac : 0A:00:27:00:00:0B
+
+eof-9b47c8f503b33a49241be13722701690653995aec9d376e54ebb2435fd7747c21ec32dd0f60d87f552b0085cc97c4dbffac6e124b7ca97b26ee051562ffaefc4
