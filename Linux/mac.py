@@ -19,18 +19,19 @@ def getHwAddr(ifname):
 
 def main():
 	f = open("upload_this_file.txt", "w")
-	f.write('linux\n')
 	toHash = ''
 	for x in inputInterfaceName:
-		n = 'hardware : '+x+'\nmac : '+getHwAddr(x)+'\n'
+		n = getHwAddr(x)
 		toHash += n+'-newLinetoHash-'
 		message_bytes = n.encode('ascii')
 		base64_bytes = base64.b64encode(message_bytes)
 		base64_message = base64_bytes.decode('ascii')
 		f.write('%s\n'%(n))
-	hash =  hashlib.sha512(toHash.encode()) 
-	f.write('eof-')
+	hash =  hashlib.md5(toHash.encode()) 
+	f.write('-eol-')
 	f.write('%s\n'%(hash.hexdigest()))
+	f.write('-eof-')
+
 	f.close()
 	# print (toHash)
 
